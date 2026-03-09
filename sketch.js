@@ -29,4 +29,6 @@ function draw() {
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
+  button.center('horizontal');        // Følger med ved resize
+  button.position(button.x, height/2 + 50); // Opdater Y-position
 }
