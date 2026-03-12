@@ -1,6 +1,9 @@
 let currentNumber;
 
-let talArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+let prizeArray = ["Ingen præmie","Ingen præmie", "Ingen præmie", "PRÆMIE","Ingen præmie", "Ingen præmie", "Ingen præmie", "PRÆMIE", "Ingen præmie", "Ingen præmie", "Ingen præmie", "PRÆMIE"]
+let numPrize = prizeArray.length;
+
+let sponserArray = ["Havremælk",  ]
 
 
 // finder et random tal fra array baseret på længden
